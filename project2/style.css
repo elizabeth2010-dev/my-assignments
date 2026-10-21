@@ -1,0 +1,143 @@
+body {
+    background: linear-gradient(to right,rgb(109, 7, 129),rgb(30, 106, 194),rgb(109, 7, 129));
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-inline: 80px;
+    border-radius: 20px;
+    padding-block: 280px;
+    padding-block-end: 20px;
+    display: flex;
+    background-color:rgba(225, 225, 225, 0.05);
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    
+}
+
+h1 {
+    position: relative;
+    top: -250px;
+    font-style: normal;
+    font-size: x-large;
+}
+
+/* .text {
+    position: relative;
+    top: -280px; 
+} */
+
+.input1 {
+    position: relative;
+    top: -270px;
+    background-color:rgba(225, 225, 225, 0.05);
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+    
+}
+
+.input2 {
+    position: relative;
+    top: -320px;
+    background-color:rgba(225, 225, 225, 0.05);
+    border-radius: 5px;
+    width: 300px;
+    height: 25px;
+}
+
+
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-top: -370px;
+}
+input[type="checkbox"] {
+    background: transparent;
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.remember 
+input[type="checkebox"]:checked::after{
+content: "/2714";
+background:transparent;
+border-color:white;
+}
+.remember label {
+    color: white;
+}
+
+.forgot {
+    justify-content: flex-end;
+    display: flex;
+    gap: 5px;
+    margin-top: -38.5px;
+}
+
+.Signin {
+    margin-top: +15px;
+    height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(to right,rgb(109, 7, 129),rgb(122, 77, 133));
+    color: white;
+    font-size: large;
+}
+
+.options {
+    display:inline-block;
+    width: 90px;
+    min-height: 20px;
+    border-bottom: 0.5px solid white;
+    outline: none;
+    margin-top: -40px;
+}
+
+.line {
+    display: flex;
+    
+ justify-content: space-between;   
+}
+.media {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+     text-align: center;
+}
+.tiktok {
+    justify-content:center;
+    display: flex;
+    width: 120px;
+    padding-block: 5px;
+    background-color: rgba(225, 225, 225, 0.05);
+    color: white;
+    border-radius: 5px;
+
+}
+.google {
+    justify-content: center;
+    width: 120px;
+    padding-block: 5px;
+    background-color: rgba(225, 225, 225, 0.05);
+    display: flex;
+    color: white;
+    border-radius:5px ;
+    
+    
+}
+.question {
+    justify-content: center;
+    margin-top: -30px;
+    display: flex;
+    
+}

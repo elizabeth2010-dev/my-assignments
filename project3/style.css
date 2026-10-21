@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(160, 57, 160);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: 900px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+
+.container h1 {
+    color: rgb(133, 105, 160);
+    margin-top: 20px;
+    white-space: wrap;
+    gap: 20px;
+}
+
+.container label {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container input {
+    margin-left: 30px;
+    border-radius: 5px;
+    width: 400px;
+    height: 20px;
+}
+
+.container select {
+    margin-left: 30px;
+    border-radius: 5px;
+    width: 400px ;
+    height: 23px;
+    background-color: rgb(216, 211, 211);
+}
+
+.container textarea {
+    margin-left: 30px;
+    width: 400px;
+    height: 50px;
+}
+
+.container button {
+   background-color: rgb(119, 85, 151);
+   width: 100px;
+   height: 30px;
+   border-radius: 5px;
+}
